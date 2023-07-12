@@ -1,0 +1,158 @@
+[B]Version: 4.0.6~Nightly 9[/B]
+
+23.06.2023
+
+ - [Cinemathek] Anzeige Release Qualität
+ - [Filmpalast] Anzeige Release Qualität
+ - [Kino] Anzeige Release Qualität
+ - [KinoGer] Anpassung Qualität Anzeige
+ - [Movie2k] Temporär deaktiviert
+ - [Movie4k] wurde entfernt da jetzt Streamkiste Movie4k ist
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+23.06.2023
+
+ - [Kinox] Fix für Filme A - Z THX @ keypusher
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+21.06.2023
+
+ - [Cinemathek] Menüpunkt Regisseure hinzugefügt
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+13.06.2023
+
+ - [GUI Element] Anpassung und Einheit Sprache
+ - [Tools] Hinzufügen HTML Konvertierung
+ - [RequestHandler] sUrl Umlaute konvertieren
+ - [Filmpalast] Entfernung temp. Fix Komödie
+ - [Kinox] Anpassung Sprachelemente
+ - [xCine] überarbeitet
+	+ Jahr hinzugefügt 
+	+ Episoden Info hinzugefügt
+	+ Thumbnail bei Episode repariert
+ - [Flimmerstube] Regex angepasst
+	+ Qualität hinzugefügt
+	+ Sprachelemente angepasst
+ - [Tools] zusäztliche Konvertierungselemente hinzugefügt
+ - [RequestHandler] zusäztliche Konvertierungselemente hinzugefügt
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+11.06.2023
+
+ - [Serienstream] Fix Hosterauswahl Anzeige HD SD Stream
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+07.06.2023
+
+ - [GUI] sInfo Element hinzugefügt
+ - [GUI Element] sInfo Gui Element hinzugefügt
+ - [Cinemathek] Neue Episoden überarbeitet
+	+ Eigene Definition erstellt
+	+ TvShowTitle hinzugefügt
+	+ Staffel Nummer hinzugefügt
+	+ Episoden Nummer hinzugefügt
+ - [HDFilme] komplett überarbeitet
+	+ Neues Icon hinzugefügt
+ - [Kino] sInfo korrigiert
+ - [Kinokiste] teilweise überarbeitet
+	+ Regex angepasst 
+	+ Episoden Info hinzugefügt
+	+ Beschreibung bei Episode hinzugefügt
+ - [KKiste] sInfo korrigiert
+ - [Movie4k] teilweise überarbeitet
+	+ Regex angepasst
+	+ Episoden Info hinzugefügt
+	+ Beschreibung bei Episode hinzugefügt
+ - [Streamkiste] teilweise überarbeitet
+	+ Regex angepasst 
+	+ Episoden Info hinzugefügt
+	+ Thumbnail bei Episode repariert
+	+ Abfrage der voreingestellten Sprache
+	+ HTML Cache Episode hinzugefügt
+ 
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+06.06.2023
+
+ - [HDFilme] komplett überarbeitet
+	+ Regex angepasst
+	+ Beschreibung hinzugefügt
+	+ Jahr hinzugefügt
+	+ Laufzeit hinzugefügt
+	+ Episoden Info hinzugefügt
+ - [Kino] teilweise überarbeitet
+	+ Regex angepasst
+	+ Qualität hinzugefügt
+	+ Episoden Info hinzugefügt
+	+ Beschreibung bei Episode hinzugefügt
+ - [KKiste] teilweise überarbeitet
+	+ Regex angepasst
+	+ Qualität hinzugefügt
+	+ Episoden Info hinzugefügt
+ - [Megakino] teilweise überarbeitet
+	+ Regex angepasst
+	+ Qualität hinzugefügt bzw. überarbeitet
+	+ Episoden Info hinzugefügt
+	+ Beschreibung bei Episode hinzugefügt
+ - [RequestHandler] ClearCache Info Einblendung hinzugefügt
+	
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+ 
+31.05.2023
+
+ - [Movieking] Siteplugin für neue Domain
+ Bitte unbedingt in den xStream Einstellungen die Domain
+ von movieking.cc auf movieking.io wechseln !!!
+ 
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+30.05.2023
+
+ - [Cinemathek] show Episodes fix (thumb Regex)
+ 
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+23.03.2023 - 28.05.2023
+
+ - [Cinemathek] Hoster ausschließen hinzugefügt
+ - [Filmpalast] Code überarbeitet
+ - [Movieking] entfernt
+ - [Kinoger] Kinoger.ru und Start-u Stream entfernt
+	+ Code komplett überarbeitet
+	+ Kinoger.be hinzugefügt
+	+ Kinoger.re Qualität hinzugefügt
+ - [Cinemathek] komplett überarbeitet
+ - [Aniworld] Neuer Menüeintrag Neue Episoden THX @ Reddex
+ - [Flimmerstube] Fix Genre - einige Menüpunkte zeigten keine Einträge
+ - [Serienstream + Aniworld] Error-Handling für Suche korrigiert
+ - [SerienStream] Thumbnail fix
+ - [Kinoger] Kinoger.pw (StreamSB) überarbeitet
+ - [Cinemathek] Temporär deaktiviert bis die neue Seite komplett fertig gestellt ist
+ - [Aniworld + s.to] Fix Anzeige Serienname   THX @ Mirko
+ - [TMDb] Fehler im Handler korrigiert welcher einen key_error erzeugte bei fehlenden Genres
+ - [RequestHandler] Anzeige Internetzensur überarbeitet
+ - [Flimmerstube] Fix Titelanzeige
+ - [Flimmerstube] Es werden nun wieder alle Filme angezeigt
+ - [tmdb] Fix für den TMDb Handler - Jahreszahlen im Namen und daher keine Beschreibung
+ - [checkDomain] verschoben in Pluginhandler holt Domains aus Siteplugin
+ - [Changelog] verschoben in Tools
+ - [service] bereinigt
+ - [cPluginInfo] erstellt und Def überarbeitet
+ - [xstream] Globale Suche wenn false dann auch ausblenden, Imports angepasst
+ - [Kinoger] Fsst.Online fix (aktuellster Resolver wird benötigt)
+ - [Kinoger] .pw fix
+ - [Flimmerstube] Fix TMDb Handler
+ - [Streamkiste] Fix TMDb Handler, Suche nach Ländern deaktivert da auf Site inaktiv
+ - [Streamcloud] Fix TMDb Handler
+ - [Streamen] fix Regex der Beschreibung
+ - [Kino] Quality entfernt
+ - [Streamen] Neues Siteplugin hinzugefügt
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+[I]*Editierhinweis: Text nicht länger als die Linie. Keine Tabulatoren verwenden![/I]
