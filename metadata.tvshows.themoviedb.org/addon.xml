@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="metadata.tvshows.themoviedb.org"
+       name="The Movie Database"
+       version="3.7.0"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="metadata.common.fanart.tv" version="3.1.0"/>
+    <import addon="metadata.common.imdb.com" version="2.9.2"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows"
+             language="en"
+             library="tmdb.xml"
+             cachepersistence="00:15"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="bg_BG">Сваля инф. за ТВ Сериали от TMDB</summary>
+    <summary lang="cs_CZ">Stahovač informací k seriálům z TMDB</summary>
+    <summary lang="de_DE">TMDB Fernsehserien Scraper</summary>
+    <description lang="de_DE">TheMovieDB.org ist eine freie und offene Filmdatenbank. Sie wird von Benutzern wie dir angetrieben. TheMovieDB wird zur Zeit von millionen Nutzern jeden Monat genutzt und dank ihrer mächtigen API ist sie auch von vielen Media-Center, wie z.B. Kodi, implementiert, um Film-Metadaten, -Poster und -Fanarts zu beziehen, die das Benutzererlebnis verbessern.</description>
+    <platform>all</platform>
+    <license>GPL v2.0</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=200504</forum>
+    <website>https://www.themoviedb.org/</website>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
